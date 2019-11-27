@@ -1,0 +1,26 @@
+---
+
+# Install
+- import_tasks: install.yml
+  tags:
+    - manala_maxscale
+
+# Config
+- import_tasks: config.yml
+  tags:
+    - manala_maxscale
+
+# Configs
+- import_tasks: configs.yml
+  tags:
+    - manala_maxscale
+
+# Users
+- import_tasks: users.yml
+  tags:
+    - manala_maxscale
+
+# Services
+- import_tasks: services.yml
+  tags:
+    - manala_maxscale
